@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<title>Esimerkki 12</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</head>
+		<body>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark row">
+			<!-- <a href="#" class="navbar-brand">kissa</a> -->
+			<div class="col-md-8">
+			<img src="kissa.jpg" alt="Koti Logo" class="navbar-dark">
+			</div>
+		
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+				<span class= "navbar-toggler-icon"></span>
+			</button>
+			<div id="navbarMenu" class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+				<!-- <ul class=nav nav-pills"> -->
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Etusivu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="second.html">Kuvat</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="third.html">Tiedot</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="fourth.html">Yhteystiedot</a>
+					</li>
+				</ul>
+		
+		</div>
+		</nav>
+		
+				<br>
+				<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2> Yhteystiedot </h2>
+				</div>
+			</div>
+		
+					<br>
+					<br>
+		<div class="ownbackground">
+		</div>
+		
+		
+		<div class="row">
+				<div class="col-md-12">
+					<a class="mapslik" href="https://www.google.fi/maps/">Maps</a> 	<i class="fas fa-cat fa10x">
+					</i>
+				</div>
+		</div>			
+			<br>
+			<br>
+		<div class="col-md-12">
+			<form action="#">
+			<fieldset>
+				<label for="Lisätietoja">Haluan lisätietoja:</label>
+				<input type="checkbox" id="Lisätietoja" name="Lisätietoja">
+			</fieldset>
+			<fieldset>
+				<legend>Yhteydenpyyntölomake</legend>
+				<label for="etunimi">Etunimi</label>
+				<input type="text" id="etunimi" name="etunimi" required>
+				<br>
+				<br>
+				<label for="etunimi">Sukunimi</label>
+				<input type="text" id="sukunimi" name="sukunimi" required>
+				<br>
+				<br>
+				<label for="sposti">Sähköposti</label>
+				<input type="email" id="sposti" name="sposti" required>
+				<br>
+				<br>
+				<label for="puhelinnumero">Puhelinnumero</label>
+				<input type="text" id="puhelinnumero" name="puhelinnumero" required>
+				
+			</fieldset>
+			</form>
+				<br>
+				<br>
+			<fieldset>
+				<legend>Lisätietoja</legend>
+				<label for="owntextarea" >Tekstialue(80x4):</label><br>
+				<textarea id="owntextarea" name="owntextarea" rows="4" cols="80"></textarea>
+				<br>
+				<br>
+			</fieldset>
+		
+			<table>
+			
+			<tr>
+				<th>
+					Kissa 1
+				</th>
+				<th>
+					Kissa 2
+				</th>
+				<th>
+					Kissa 3
+				</th>
+				<th>
+					Kissa 4
+				</th>
+			</tr>
+			<tr>
+				<td>
+					Miuku
+				</td>
+				<td>
+					Mauku
+				</td>
+				<td>
+					Mouku
+				</td>
+				<td>
+					Mullukka
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					kehräävät pallero kullat
+				</td>
+				<td>
+					sähisee
+				</td>
+				<td>
+					suhisee
+				</td>
+			</tr>
+			<tr>
+				<td>
+					valkoinen
+				</td>
+				<td>
+					musta
+				</td>
+				<td>
+					osanssi
+				</td>
+				<td rowspan="2">
+					Kirjavat kurjavat
+				</td>
+			</tr>
+			<tr>
+				<td>
+					hely
+				</td>
+				<td>
+					halu
+				</td>
+				<td>
+					holu
+				</td>
+				
+			</tr>
+		</table>
+	
+		<br>
+		<br>
+	</div>	
+	</div>
+		<footer>
+		Susanna Tuomala
+		</footer>
+</html>
